@@ -59,5 +59,10 @@ object Scala02_String {
          |""".stripMargin
     println(SQLstring)
 
+    //String有乘法
+    val dup = "zhangsan"
+    val newDup = dup*2
+    println(newDup)
+
   }
 }
