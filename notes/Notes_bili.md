@@ -72,6 +72,14 @@ static{}静态代码块中，构建当前对象，并赋值给MODULE$ - private 
 静态只执行一次，所以只有一个单例对象</br>
 
 
+99. scala单继承</br>
+多继承-钻石问题</br>
+![img_20.png](img_20.png)
+
+
+
+
+
 问题
 1. testAcess.java: clone cannot access, tho override
 ![img_18.png](img_18.png)
