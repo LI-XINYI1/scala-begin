@@ -6,7 +6,7 @@ package scala.bili.c06Object
  * @author: Lisa
  * @date: 2023/6/21 - 15:21
  */
-class Scala10_Object_Extends {
+object Scala10_Object_Extends {
   def main(array: Array[String]): Unit = {
     /*TODO 面向对象编程 - 继承
     scala的继承和java是一致的
