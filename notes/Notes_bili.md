@@ -49,7 +49,29 @@ Scala01_Var.main(args); </br>
 闭包示意图: x生命周期延长， 且闭合环境仅仅inner可用
 ![img_14.png](img_14.png)
 
+82. java 类
+![img_15.png](img_15.png)
 
+88.Object的继承</br>
+![img_16.png](img_16.png)
+结论：TestAcess不是'AAA的父类Object'的子类，他俩没关系</br>
+clone是成员方法，和对象有关系</br>
+构建AAA对象时，同时构建出OBJECT父类对象（黄色）</br>
+红色TestAccess有自己的OBJECT父类对象（蓝色） </br>
+
+![img_17.png](img_17.png)
+结论：BBB(AAA)override了clone后，创建了自己的clone</br>
+     TestAccess对象调用同包的BBB对象的方法，不会报错</br>
+
+
+93. 为什么object构建对象是单例的</br>
+ ![img_19.png](img_19.png)
+反编译</br>
+public static 类名$ MODULE$;</br>
+static{}静态代码块中，构建当前对象，并赋值给MODULE$ - private </br>
+静态只执行一次，所以只有一个单例对象</br>
 
 
 问题
+1. testAcess.java: clone cannot access, tho override
+![img_18.png](img_18.png)
