@@ -77,6 +77,12 @@ static{}静态代码块中，构建当前对象，并赋值给MODULE$ - private 
 ![img_20.png](img_20.png)
 
 
+107. trait extends在反编译java里如何实现
+![img_21.png](img_21.png)
+
+110. 多个traits的初始化和执行顺序
+![img_22.png](img_22.png)
+
 
 
 
