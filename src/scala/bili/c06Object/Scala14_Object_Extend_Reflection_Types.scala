@@ -24,14 +24,14 @@ object Scala14_Object_Extend_Reflection_Types {
      */
     val name: String = " a b "
 
-//    val stringClass: Class[String] = classOf[String]
-//    //获取字符串底层的数组   "value": private byte[] 定义在java.lang.String里的储存地址
-//    val field: Field = stringClass.getDeclaredField("value")
-//    //绕过正常验证机制，拿到private的值
-//    field.setAccessible(true)
-//    //取出数组的值
-//    val charArray = field.get(name).asInstanceOf[Array[Char]]
-//    charArray.update(2,'c')
+    val stringClass: Class[String] = classOf[String]
+    //获取字符串底层的数组   "value": private byte[] 定义在java.lang.String里的储存地址
+    val field: Field = stringClass.getDeclaredField("value")
+    //绕过正常验证机制，拿到private的值
+    field.setAccessible(true)
+    //取出数组的值
+    val charArray = field.get(name).asInstanceOf[Array[Char]]
+    charArray.update(2,'c')
 
     println("!!! "+name)
 
