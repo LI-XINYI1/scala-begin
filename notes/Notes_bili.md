@@ -84,7 +84,55 @@ static{}静态代码块中，构建当前对象，并赋值给MODULE$ - private 
 ![img_22.png](img_22.png)
 
 
+116. java的集合: 侧重数据间的关系 + 数据结构之间的关系 </br>
+![img_23.png](img_23.png)</br>
 
+
+    /* Scala集合
+    scala是面向函数式的语言，学习集合时，更侧重集合本身的功能
+
+    数据结构上，scala的集合分为三大类：
+    1. Seq: 存储有序，数据可重复
+    2. Set: 存储无序，数据不可重复
+    3. Map: 存储无序，KEY不可重复, VALUE可以
+
+    数据处理上，scala的集合分为两大类：
+    1. 不可变集合  scala.collection.immutable
+    2. 可变集合    scala.collection.mutable
+    原始数据： 处理数据时，一般从数据源获取数据，但数据的数据源一般不可以随意改变。
+                        如果必须变，也是新建并替换
+
+    String & StringBuilder
+    String:        不可变字符串， 类没有提供改变其内容的方法，如果有，也是创建新的并替换旧的
+    StringBuilder: 可变字符串，   可以改变自身内容
+
+     */
+
+116. 集合类型/trait关系图</br>
+Iterable  ->  Map, Set, Seq
+![img_24.png](img_24.png)
+![img_25.png](img_25.png)
+绿色： trait 
+蓝色： class
+
+141. list.sliding()
+![img_26.png](img_26.png)
+![img_27.png](img_27.png)
+
+
+145. List[String].flatMap, 参数类型：String => GenTraversableOnce </br>
+查看hierarchy快捷键： ctrl+H
+![img_28.png](img_28.png)
+
+
+163. reduceLeft迭代两两计算
+![img_29.png](img_29.png)
+
+164. reduceLeft / Right迭代两两相减</br>
+错的：</br>
+![img_30.png](img_30.png)
+对的：</br>
+![img_31.png](img_31.png)
 
 问题
 1. testAcess.java: clone cannot access, tho override
