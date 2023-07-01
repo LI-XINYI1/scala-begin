@@ -1,6 +1,6 @@
 package scala.test;
 
-import scala.bili.c02DataType.Scala01_Var;
+import scala.main.c02DataType.Scala01_Var;
 
 /**
  * @ClassName:

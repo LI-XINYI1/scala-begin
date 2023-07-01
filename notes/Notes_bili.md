@@ -134,6 +134,22 @@ Iterable  ->  Map, Set, Seq
 对的：</br>
 ![img_31.png](img_31.png)
 
+169. 模式匹配 - java switch</br>
+![img_33.png](img_33.png)
+![img_32.png](img_32.png) </br>
+
+下划线的作用</br>
+![img_34.png](img_34.png)
+![img_35.png](img_35.png)
+
+
+178. 异常 - java
+![img_38.png](img_38.png)
+
+
 问题
 1. testAcess.java: clone cannot access, tho override
 ![img_18.png](img_18.png)
+
+173. 模式匹配 - list
+![img_37.png](img_37.png)
